@@ -1,0 +1,12 @@
+#include <stdio.h>
+struct distance{
+    int inch;
+    float feet;
+    };
+int main(){
+struct distance d1={ 14,5.9};
+struct distance d2={13,6.5};
+    printf("sum of distances=%d inch %f feet",d1.inch+d2.inch,d1.feet+d2.feet);
+
+    return 0;
+}
